@@ -1,7 +1,7 @@
 # PA4 :
 **Note on ethics: In this task, we will simulate a backend component of a service exchange platform. Service exchange 
 is a concept closely related to the notion of shared economy, examples of which include Uber, AirBnB, TaskRabbit etc. 
-The existing platforms have been extensively criticised (e.g. Tom Slee's position) for their business models, 
+The existing platforms have been extensively criticised (e.g. [Tom Slee's position](https://pdfs.semanticscholar.org/4100/91be5c14ba4b17dcbd74f7e594f0c22782b5.pdf)) for their business models, 
 which clearly need to be changed in order to meet contemporary ethical standards of work. In this task, 
 we focus on the technical side of a fictional toy-scale platform counting on future developments in business regulations 
 that will make such application ethically acceptable from the point of view of data protection, 
