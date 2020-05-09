@@ -3,6 +3,8 @@
 # Author: Wenyuan Wu, 18746867
 # Date: 08.05.2020
 # Additional Info:
+# Install packages:
+# pip install -r requirements.txt
 # To get help, type in command line:
 # $ python pa4.py -h
 # Exemplary usage:
@@ -139,7 +141,7 @@ def main():
             query_rank_dict[row[0]] = int(row[1])
     query_list = list(query_rank_dict.keys())
 
-    # To calculate results by two different approaches and save to json file
+    # To calculate results by two different approaches and save to json format file for inspection purpose
     distance_baseline = get_baseline_distance(query_list, comp_list)
     with open('distance_baseline.json', 'w') as fp:
         json.dump(distance_baseline, fp, indent=4)
