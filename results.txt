@@ -1,418 +1,418 @@
-query: Clean the kitchen floor, clean the oven
-correct rank: 1
+Query 1: Clean the kitchen floor, clean the oven
+Correct rank: 1
 
-ranking                          baseline  WMD
-1  Clean kitchen                 1         1
-2  Teach basic cooking           2         5
-3  Chinese gourmet cuisine       5         15
-4  Clean outdoor seating         4         2
-5  Cultivate garden              10        12
-6  Carry out transports          15        8
-7  Maintain laundry              3         6
-8  Sewing                        13        16
-9  Do shopping                   11        7
-10 Baby care                     6         10
-11 Look after toddlers           9         4
-12 Advise child care             8         11
-13 Dog training                  14        14
-14 Walk a dog                    12        13
-15 Do painting work              7         3
-16 Provide knowledge of wine     16        9
-
-
-query: Kitchen work
-correct rank: 1
-
-ranking                          baseline  WMD
-1  Clean kitchen                 1         1
-2  Teach basic cooking           3         5
-3  Chinese gourmet cuisine       8         16
-4  Clean outdoor seating         9         14
-5  Cultivate garden              6         7
-6  Carry out transports          16        11
-7  Maintain laundry              4         3
-8  Sewing                        5         15
-9  Do shopping                   7         4
-10 Baby care                     11        8
-11 Look after toddlers           14        6
-12 Advise child care             10        12
-13 Dog training                  12        9
-14 Walk a dog                    15        13
-15 Do painting work              2         2
-16 Provide knowledge of wine     13        10
+ Ranking                           Baseline  WMD
+>1  Clean kitchen                 >1        >1
+ 2  Teach basic cooking           >2         5
+ 3  Chinese gourmet cuisine        5         15
+ 4  Clean outdoor seating          4        >2
+ 5  Cultivate garden               10        12
+ 6  Carry out transports           15        8
+ 7  Maintain laundry              >3         6
+ 8  Sewing                         13        16
+ 9  Do shopping                    11        7
+ 10 Baby care                      6         10
+ 11 Look after toddlers            9         4
+ 12 Advise child care              8         11
+ 13 Dog training                   14        14
+ 14 Walk a dog                     12        13
+ 15 Do painting work               7        >3
+ 16 Provide knowledge of wine      16        9
 
 
-query: Teaching children to cook
-correct rank: 2
+Query 2: Kitchen work
+Correct rank: 1
 
-ranking                          baseline  WMD
-1  Clean kitchen                 2         6
-2  Teach basic cooking           1         1
-3  Chinese gourmet cuisine       3         16
-4  Clean outdoor seating         15        15
-5  Cultivate garden              7         10
-6  Carry out transports          16        13
-7  Maintain laundry              9         12
-8  Sewing                        4         14
-9  Do shopping                   10        7
-10 Baby care                     8         5
-11 Look after toddlers           11        3
-12 Advise child care             6         2
-13 Dog training                  13        8
-14 Walk a dog                    12        11
-15 Do painting work              5         4
-16 Provide knowledge of wine     14        9
-
-
-query: Asian gourmet cuisine
-correct rank: 3
-
-ranking                          baseline  WMD
-1  Clean kitchen                 4         4
-2  Teach basic cooking           3         2
-3  Chinese gourmet cuisine       1         1
-4  Clean outdoor seating         7         14
-5  Cultivate garden              6         8
-6  Carry out transports          16        9
-7  Maintain laundry              12        12
-8  Sewing                        9         16
-9  Do shopping                   5         3
-10 Baby care                     13        11
-11 Look after toddlers           14        7
-12 Advise child care             15        10
-13 Dog training                  10        15
-14 Walk a dog                    8         13
-15 Do painting work              11        6
-16 Provide knowledge of wine     2         5
+ Ranking                           Baseline  WMD
+>1  Clean kitchen                 >1        >1
+ 2  Teach basic cooking           >3         5
+ 3  Chinese gourmet cuisine        8         16
+ 4  Clean outdoor seating          9         14
+ 5  Cultivate garden               6         7
+ 6  Carry out transports           16        11
+ 7  Maintain laundry               4        >3
+ 8  Sewing                         5         15
+ 9  Do shopping                    7         4
+ 10 Baby care                      11        8
+ 11 Look after toddlers            14        6
+ 12 Advise child care              10        12
+ 13 Dog training                   12        9
+ 14 Walk a dog                     15        13
+ 15 Do painting work              >2        >2
+ 16 Provide knowledge of wine      13        10
 
 
-query: Free the pergola of dirt
-correct rank: 4
+Query 3: Teaching children to cook
+Correct rank: 2
 
-ranking                          baseline  WMD
-1  Clean kitchen                 1         3
-2  Teach basic cooking           7         9
-3  Chinese gourmet cuisine       11        15
-4  Clean outdoor seating         3         8
-5  Cultivate garden              2         5
-6  Carry out transports          14        6
-7  Maintain laundry              8         10
-8  Sewing                        13        16
-9  Do shopping                   15        4
-10 Baby care                     10        14
-11 Look after toddlers           9         2
-12 Advise child care             12        11
-13 Dog training                  6         13
-14 Walk a dog                    4         12
-15 Do painting work              5         1
-16 Provide knowledge of wine     16        7
-
-
-query: Mow and fertilize English lawn
-correct rank: 5
-
-ranking                          baseline  WMD
-1  Clean kitchen                 3         5
-2  Teach basic cooking           5         6
-3  Chinese gourmet cuisine       13        15
-4  Clean outdoor seating         2         13
-5  Cultivate garden              1         1
-6  Carry out transports          16        8
-7  Maintain laundry              6         9
-8  Sewing                        14        16
-9  Do shopping                   12        4
-10 Baby care                     8         11
-11 Look after toddlers           10        3
-12 Advise child care             7         7
-13 Dog training                  9         12
-14 Walk a dog                    4         10
-15 Do painting work              11        2
-16 Provide knowledge of wine     15        14
+ Ranking                           Baseline  WMD
+ 1  Clean kitchen                 >2         6
+>2  Teach basic cooking           >1        >1
+ 3  Chinese gourmet cuisine       >3         16
+ 4  Clean outdoor seating          15        15
+ 5  Cultivate garden               7         10
+ 6  Carry out transports           16        13
+ 7  Maintain laundry               9         12
+ 8  Sewing                         4         14
+ 9  Do shopping                    10        7
+ 10 Baby care                      8         5
+ 11 Look after toddlers            11       >3
+ 12 Advise child care              6        >2
+ 13 Dog training                   13        8
+ 14 Walk a dog                     12        11
+ 15 Do painting work               5         4
+ 16 Provide knowledge of wine      14        9
 
 
-query: Transport the piano
-correct rank: 6
+Query 4: Asian gourmet cuisine
+Correct rank: 3
 
-ranking                          baseline  WMD
-1  Clean kitchen                 4         7
-2  Teach basic cooking           1         5
-3  Chinese gourmet cuisine       3         15
-4  Clean outdoor seating         5         13
-5  Cultivate garden              11        14
-6  Carry out transports          7         2
-7  Maintain laundry              13        10
-8  Sewing                        6         16
-9  Do shopping                   16        4
-10 Baby care                     14        9
-11 Look after toddlers           10        3
-12 Advise child care             15        8
-13 Dog training                  12        12
-14 Walk a dog                    9         11
-15 Do painting work              2         1
-16 Provide knowledge of wine     8         6
-
-
-query: Pick up father in a wheelchair at the nursing home
-correct rank: 6
-
-ranking                          baseline  WMD
-1  Clean kitchen                 3         7
-2  Teach basic cooking           9         9
-3  Chinese gourmet cuisine       15        15
-4  Clean outdoor seating         13        13
-5  Cultivate garden              12        14
-6  Carry out transports          14        3
-7  Maintain laundry              6         8
-8  Sewing                        11        16
-9  Do shopping                   8         5
-10 Baby care                     1         6
-11 Look after toddlers           4         1
-12 Advise child care             2         4
-13 Dog training                  5         10
-14 Walk a dog                    7         11
-15 Do painting work              10        2
-16 Provide knowledge of wine     16        12
+ Ranking                           Baseline  WMD
+ 1  Clean kitchen                  4         4
+ 2  Teach basic cooking           >3        >2
+>3  Chinese gourmet cuisine       >1        >1
+ 4  Clean outdoor seating          7         14
+ 5  Cultivate garden               6         8
+ 6  Carry out transports           16        9
+ 7  Maintain laundry               12        12
+ 8  Sewing                         9         16
+ 9  Do shopping                    5        >3
+ 10 Baby care                      13        11
+ 11 Look after toddlers            14        7
+ 12 Advise child care              15        10
+ 13 Dog training                   10        15
+ 14 Walk a dog                     8         13
+ 15 Do painting work               11        6
+ 16 Provide knowledge of wine     >2         5
 
 
-query: Wash and iron table linen
-correct rank: 7
+Query 5: Free the pergola of dirt
+Correct rank: 4
 
-ranking                          baseline  WMD
-1  Clean kitchen                 1         1
-2  Teach basic cooking           8         7
-3  Chinese gourmet cuisine       5         16
-4  Clean outdoor seating         4         9
-5  Cultivate garden              11        13
-6  Carry out transports          13        4
-7  Maintain laundry              3         3
-8  Sewing                        2         15
-9  Do shopping                   12        6
-10 Baby care                     9         11
-11 Look after toddlers           15        5
-12 Advise child care             10        8
-13 Dog training                  16        14
-14 Walk a dog                    14        12
-15 Do painting work              7         2
-16 Provide knowledge of wine     6         10
-
-
-query: Sew sofa cushions out of silk
-correct rank: 8
-
-ranking                          baseline  WMD
-1  Clean kitchen                 8         5
-2  Teach basic cooking           11        9
-3  Chinese gourmet cuisine       2         16
-4  Clean outdoor seating         7         12
-5  Cultivate garden              4         11
-6  Carry out transports          10        1
-7  Maintain laundry              6         10
-8  Sewing                        1         6
-9  Do shopping                   9         4
-10 Baby care                     13        7
-11 Look after toddlers           12        2
-12 Advise child care             14        8
-13 Dog training                  15        15
-14 Walk a dog                    16        14
-15 Do painting work              5         3
-16 Provide knowledge of wine     3         13
+ Ranking                           Baseline  WMD
+ 1  Clean kitchen                 >1        >3
+ 2  Teach basic cooking            7         9
+ 3  Chinese gourmet cuisine        11        15
+>4  Clean outdoor seating         >3         8
+ 5  Cultivate garden              >2         5
+ 6  Carry out transports           14        6
+ 7  Maintain laundry               8         10
+ 8  Sewing                         13        16
+ 9  Do shopping                    15        4
+ 10 Baby care                      10        14
+ 11 Look after toddlers            9        >2
+ 12 Advise child care              12        11
+ 13 Dog training                   6         13
+ 14 Walk a dog                     4         12
+ 15 Do painting work               5        >1
+ 16 Provide knowledge of wine      16        7
 
 
-query: Bring food home
-correct rank: 9
+Query 6: Mow and fertilize English lawn
+Correct rank: 5
 
-ranking                          baseline  WMD
-1  Clean kitchen                 1         7
-2  Teach basic cooking           3         6
-3  Chinese gourmet cuisine       7         15
-4  Clean outdoor seating         15        14
-5  Cultivate garden              8         12
-6  Carry out transports          14        2
-7  Maintain laundry              5         8
-8  Sewing                        16        16
-9  Do shopping                   4         4
-10 Baby care                     2         10
-11 Look after toddlers           10        1
-12 Advise child care             6         9
-13 Dog training                  13        13
-14 Walk a dog                    9         11
-15 Do painting work              11        5
-16 Provide knowledge of wine     12        3
-
-
-query: Shopping help with car
-correct rank: 9
-
-ranking                          baseline  WMD
-1  Clean kitchen                 5         8
-2  Teach basic cooking           11        9
-3  Chinese gourmet cuisine       15        15
-4  Clean outdoor seating         14        14
-5  Cultivate garden              10        13
-6  Carry out transports          13        4
-7  Maintain laundry              9         7
-8  Sewing                        16        16
-9  Do shopping                   1         1
-10 Baby care                     6         10
-11 Look after toddlers           4         2
-12 Advise child care             7         6
-13 Dog training                  3         11
-14 Walk a dog                    2         12
-15 Do painting work              8         3
-16 Provide knowledge of wine     12        5
+ Ranking                           Baseline  WMD
+ 1  Clean kitchen                 >3         5
+ 2  Teach basic cooking            5         6
+ 3  Chinese gourmet cuisine        13        15
+ 4  Clean outdoor seating         >2         13
+>5  Cultivate garden              >1        >1
+ 6  Carry out transports           16        8
+ 7  Maintain laundry               6         9
+ 8  Sewing                         14        16
+ 9  Do shopping                    12        4
+ 10 Baby care                      8         11
+ 11 Look after toddlers            10       >3
+ 12 Advise child care              7         7
+ 13 Dog training                   9         12
+ 14 Walk a dog                     4         10
+ 15 Do painting work               11       >2
+ 16 Provide knowledge of wine      15        14
 
 
-query: Feeding, wrapping and dressing the infant
-correct rank: 10
+Query 7: Transport the piano
+Correct rank: 6
 
-ranking                          baseline  WMD
-1  Clean kitchen                 8         6
-2  Teach basic cooking           7         8
-3  Chinese gourmet cuisine       16        16
-4  Clean outdoor seating         10        13
-5  Cultivate garden              12        14
-6  Carry out transports          15        7
-7  Maintain laundry              9         11
-8  Sewing                        6         15
-9  Do shopping                   11        5
-10 Baby care                     1         2
-11 Look after toddlers           2         1
-12 Advise child care             3         3
-13 Dog training                  5         10
-14 Walk a dog                    4         9
-15 Do painting work              13        4
-16 Provide knowledge of wine     14        12
-
-
-query: play with four-year-old son
-correct rank: 11
-
-ranking                          baseline  WMD
-1  Clean kitchen                 10        11
-2  Teach basic cooking           8         7
-3  Chinese gourmet cuisine       14        15
-4  Clean outdoor seating         16        14
-5  Cultivate garden              7         13
-6  Carry out transports          15        6
-7  Maintain laundry              11        12
-8  Sewing                        13        16
-9  Do shopping                   9         5
-10 Baby care                     1         4
-11 Look after toddlers           2         1
-12 Advise child care             4         3
-13 Dog training                  5         9
-14 Walk a dog                    3         8
-15 Do painting work              6         2
-16 Provide knowledge of wine     12        10
+ Ranking                           Baseline  WMD
+ 1  Clean kitchen                  4         7
+ 2  Teach basic cooking           >1         5
+ 3  Chinese gourmet cuisine       >3         15
+ 4  Clean outdoor seating          5         13
+ 5  Cultivate garden               11        14
+>6  Carry out transports           7        >2
+ 7  Maintain laundry               13        10
+ 8  Sewing                         6         16
+ 9  Do shopping                    16        4
+ 10 Baby care                      14        9
+ 11 Look after toddlers            10       >3
+ 12 Advise child care              15        8
+ 13 Dog training                   12        12
+ 14 Walk a dog                     9         11
+ 15 Do painting work              >2        >1
+ 16 Provide knowledge of wine      8         6
 
 
-query: Prepare pregnant women for baby care
-correct rank: 12
+Query 8: Pick up father in a wheelchair at the nursing home
+Correct rank: 6
 
-ranking                          baseline  WMD
-1  Clean kitchen                 9         11
-2  Teach basic cooking           8         7
-3  Chinese gourmet cuisine       16        16
-4  Clean outdoor seating         14        14
-5  Cultivate garden              12        13
-6  Carry out transports          13        6
-7  Maintain laundry              5         9
-8  Sewing                        11        15
-9  Do shopping                   6         4
-10 Baby care                     1         1
-11 Look after toddlers           3         3
-12 Advise child care             2         2
-13 Dog training                  4         8
-14 Walk a dog                    7         12
-15 Do painting work              10        5
-16 Provide knowledge of wine     15        10
-
-
-query: Educate dog for family
-correct rank: 13
-
-ranking                          baseline  WMD
-1  Clean kitchen                 8         11
-2  Teach basic cooking           6         6
-3  Chinese gourmet cuisine       13        15
-4  Clean outdoor seating         14        14
-5  Cultivate garden              5         13
-6  Carry out transports          16        9
-7  Maintain laundry              11        12
-8  Sewing                        15        16
-9  Do shopping                   9         7
-10 Baby care                     3         8
-11 Look after toddlers           7         3
-12 Advise child care             2         4
-13 Dog training                  4         1
-14 Walk a dog                    1         2
-15 Do painting work              10        5
-16 Provide knowledge of wine     12        10
+ Ranking                           Baseline  WMD
+ 1  Clean kitchen                 >3         7
+ 2  Teach basic cooking            9         9
+ 3  Chinese gourmet cuisine        15        15
+ 4  Clean outdoor seating          13        13
+ 5  Cultivate garden               12        14
+>6  Carry out transports           14       >3
+ 7  Maintain laundry               6         8
+ 8  Sewing                         11        16
+ 9  Do shopping                    8         5
+ 10 Baby care                     >1         6
+ 11 Look after toddlers            4        >1
+ 12 Advise child care             >2         4
+ 13 Dog training                   5         10
+ 14 Walk a dog                     7         11
+ 15 Do painting work               10       >2
+ 16 Provide knowledge of wine      16        12
 
 
-query: For dog shelter, take several dogs for a walk
-correct rank: 14
+Query 9: Wash and iron table linen
+Correct rank: 7
 
-ranking                          baseline  WMD
-1  Clean kitchen                 12        12
-2  Teach basic cooking           10        9
-3  Chinese gourmet cuisine       14        15
-4  Clean outdoor seating         9         14
-5  Cultivate garden              11        13
-6  Carry out transports          7         5
-7  Maintain laundry              13        11
-8  Sewing                        16        16
-9  Do shopping                   4         6
-10 Baby care                     8         8
-11 Look after toddlers           5         3
-12 Advise child care             6         7
-13 Dog training                  2         2
-14 Walk a dog                    1         1
-15 Do painting work              3         4
-16 Provide knowledge of wine     15        10
-
-
-query: Sand down garden fence and repaint
-correct rank: 15
-
-ranking                          baseline  WMD
-1  Clean kitchen                 2         5
-2  Teach basic cooking           11        7
-3  Chinese gourmet cuisine       15        15
-4  Clean outdoor seating         3         11
-5  Cultivate garden              4         1
-6  Carry out transports          10        4
-7  Maintain laundry              5         9
-8  Sewing                        6         16
-9  Do shopping                   7         6
-10 Baby care                     13        12
-11 Look after toddlers           14        3
-12 Advise child care             9         10
-13 Dog training                  12        13
-14 Walk a dog                    8         8
-15 Do painting work              1         2
-16 Provide knowledge of wine     16        14
+ Ranking                           Baseline  WMD
+ 1  Clean kitchen                 >1        >1
+ 2  Teach basic cooking            8         7
+ 3  Chinese gourmet cuisine        5         16
+ 4  Clean outdoor seating          4         9
+ 5  Cultivate garden               11        13
+ 6  Carry out transports           13        4
+>7  Maintain laundry              >3        >3
+ 8  Sewing                        >2         15
+ 9  Do shopping                    12        6
+ 10 Baby care                      9         11
+ 11 Look after toddlers            15        5
+ 12 Advise child care              10        8
+ 13 Dog training                   16        14
+ 14 Walk a dog                     14        12
+ 15 Do painting work               7        >2
+ 16 Provide knowledge of wine      6         10
 
 
-query: Wine connoisseurs, value wines from inheritance
-correct rank: 16
+Query 10: Sew sofa cushions out of silk
+Correct rank: 8
 
-ranking                          baseline  WMD
-1  Clean kitchen                 13        10
-2  Teach basic cooking           5         5
-3  Chinese gourmet cuisine       6         9
-4  Clean outdoor seating         16        15
-5  Cultivate garden              4         11
-6  Carry out transports          15        6
-7  Maintain laundry              12        13
-8  Sewing                        14        16
-9  Do shopping                   8         4
-10 Baby care                     3         8
-11 Look after toddlers           10        3
-12 Advise child care             2         7
-13 Dog training                  11        14
-14 Walk a dog                    9         12
-15 Do painting work              7         2
-16 Provide knowledge of wine     1         1
+ Ranking                           Baseline  WMD
+ 1  Clean kitchen                  8         5
+ 2  Teach basic cooking            11        9
+ 3  Chinese gourmet cuisine       >2         16
+ 4  Clean outdoor seating          7         12
+ 5  Cultivate garden               4         11
+ 6  Carry out transports           10       >1
+ 7  Maintain laundry               6         10
+>8  Sewing                        >1         6
+ 9  Do shopping                    9         4
+ 10 Baby care                      13        7
+ 11 Look after toddlers            12       >2
+ 12 Advise child care              14        8
+ 13 Dog training                   15        15
+ 14 Walk a dog                     16        14
+ 15 Do painting work               5        >3
+ 16 Provide knowledge of wine     >3         13
+
+
+Query 11: Bring food home
+Correct rank: 9
+
+ Ranking                           Baseline  WMD
+ 1  Clean kitchen                 >1         7
+ 2  Teach basic cooking           >3         6
+ 3  Chinese gourmet cuisine        7         15
+ 4  Clean outdoor seating          15        14
+ 5  Cultivate garden               8         12
+ 6  Carry out transports           14       >2
+ 7  Maintain laundry               5         8
+ 8  Sewing                         16        16
+>9  Do shopping                    4         4
+ 10 Baby care                     >2         10
+ 11 Look after toddlers            10       >1
+ 12 Advise child care              6         9
+ 13 Dog training                   13        13
+ 14 Walk a dog                     9         11
+ 15 Do painting work               11        5
+ 16 Provide knowledge of wine      12       >3
+
+
+Query 12: Shopping help with car
+Correct rank: 9
+
+ Ranking                           Baseline  WMD
+ 1  Clean kitchen                  5         8
+ 2  Teach basic cooking            11        9
+ 3  Chinese gourmet cuisine        15        15
+ 4  Clean outdoor seating          14        14
+ 5  Cultivate garden               10        13
+ 6  Carry out transports           13        4
+ 7  Maintain laundry               9         7
+ 8  Sewing                         16        16
+>9  Do shopping                   >1        >1
+ 10 Baby care                      6         10
+ 11 Look after toddlers            4        >2
+ 12 Advise child care              7         6
+ 13 Dog training                  >3         11
+ 14 Walk a dog                    >2         12
+ 15 Do painting work               8        >3
+ 16 Provide knowledge of wine      12        5
+
+
+Query 13: Feeding, wrapping and dressing the infant
+Correct rank: 10
+
+ Ranking                           Baseline  WMD
+ 1  Clean kitchen                  8         6
+ 2  Teach basic cooking            7         8
+ 3  Chinese gourmet cuisine        16        16
+ 4  Clean outdoor seating          10        13
+ 5  Cultivate garden               12        14
+ 6  Carry out transports           15        7
+ 7  Maintain laundry               9         11
+ 8  Sewing                         6         15
+ 9  Do shopping                    11        5
+>10 Baby care                     >1        >2
+ 11 Look after toddlers           >2        >1
+ 12 Advise child care             >3        >3
+ 13 Dog training                   5         10
+ 14 Walk a dog                     4         9
+ 15 Do painting work               13        4
+ 16 Provide knowledge of wine      14        12
+
+
+Query 14: play with four-year-old son
+Correct rank: 11
+
+ Ranking                           Baseline  WMD
+ 1  Clean kitchen                  10        11
+ 2  Teach basic cooking            8         7
+ 3  Chinese gourmet cuisine        14        15
+ 4  Clean outdoor seating          16        14
+ 5  Cultivate garden               7         13
+ 6  Carry out transports           15        6
+ 7  Maintain laundry               11        12
+ 8  Sewing                         13        16
+ 9  Do shopping                    9         5
+ 10 Baby care                     >1         4
+>11 Look after toddlers           >2        >1
+ 12 Advise child care              4        >3
+ 13 Dog training                   5         9
+ 14 Walk a dog                    >3         8
+ 15 Do painting work               6        >2
+ 16 Provide knowledge of wine      12        10
+
+
+Query 15: Prepare pregnant women for baby care
+Correct rank: 12
+
+ Ranking                           Baseline  WMD
+ 1  Clean kitchen                  9         11
+ 2  Teach basic cooking            8         7
+ 3  Chinese gourmet cuisine        16        16
+ 4  Clean outdoor seating          14        14
+ 5  Cultivate garden               12        13
+ 6  Carry out transports           13        6
+ 7  Maintain laundry               5         9
+ 8  Sewing                         11        15
+ 9  Do shopping                    6         4
+ 10 Baby care                     >1        >1
+ 11 Look after toddlers           >3        >3
+>12 Advise child care             >2        >2
+ 13 Dog training                   4         8
+ 14 Walk a dog                     7         12
+ 15 Do painting work               10        5
+ 16 Provide knowledge of wine      15        10
+
+
+Query 16: Educate dog for family
+Correct rank: 13
+
+ Ranking                           Baseline  WMD
+ 1  Clean kitchen                  8         11
+ 2  Teach basic cooking            6         6
+ 3  Chinese gourmet cuisine        13        15
+ 4  Clean outdoor seating          14        14
+ 5  Cultivate garden               5         13
+ 6  Carry out transports           16        9
+ 7  Maintain laundry               11        12
+ 8  Sewing                         15        16
+ 9  Do shopping                    9         7
+ 10 Baby care                     >3         8
+ 11 Look after toddlers            7        >3
+ 12 Advise child care             >2         4
+>13 Dog training                   4        >1
+ 14 Walk a dog                    >1        >2
+ 15 Do painting work               10        5
+ 16 Provide knowledge of wine      12        10
+
+
+Query 17: For dog shelter, take several dogs for a walk
+Correct rank: 14
+
+ Ranking                           Baseline  WMD
+ 1  Clean kitchen                  12        12
+ 2  Teach basic cooking            10        9
+ 3  Chinese gourmet cuisine        14        15
+ 4  Clean outdoor seating          9         14
+ 5  Cultivate garden               11        13
+ 6  Carry out transports           7         5
+ 7  Maintain laundry               13        11
+ 8  Sewing                         16        16
+ 9  Do shopping                    4         6
+ 10 Baby care                      8         8
+ 11 Look after toddlers            5        >3
+ 12 Advise child care              6         7
+ 13 Dog training                  >2        >2
+>14 Walk a dog                    >1        >1
+ 15 Do painting work              >3         4
+ 16 Provide knowledge of wine      15        10
+
+
+Query 18: Sand down garden fence and repaint
+Correct rank: 15
+
+ Ranking                           Baseline  WMD
+ 1  Clean kitchen                 >2         5
+ 2  Teach basic cooking            11        7
+ 3  Chinese gourmet cuisine        15        15
+ 4  Clean outdoor seating         >3         11
+ 5  Cultivate garden               4        >1
+ 6  Carry out transports           10        4
+ 7  Maintain laundry               5         9
+ 8  Sewing                         6         16
+ 9  Do shopping                    7         6
+ 10 Baby care                      13        12
+ 11 Look after toddlers            14       >3
+ 12 Advise child care              9         10
+ 13 Dog training                   12        13
+ 14 Walk a dog                     8         8
+>15 Do painting work              >1        >2
+ 16 Provide knowledge of wine      16        14
+
+
+Query 19: Wine connoisseurs, value wines from inheritance
+Correct rank: 16
+
+ Ranking                           Baseline  WMD
+ 1  Clean kitchen                  13        10
+ 2  Teach basic cooking            5         5
+ 3  Chinese gourmet cuisine        6         9
+ 4  Clean outdoor seating          16        15
+ 5  Cultivate garden               4         11
+ 6  Carry out transports           15        6
+ 7  Maintain laundry               12        13
+ 8  Sewing                         14        16
+ 9  Do shopping                    8         4
+ 10 Baby care                     >3         8
+ 11 Look after toddlers            10       >3
+ 12 Advise child care             >2         7
+ 13 Dog training                   11        14
+ 14 Walk a dog                     9         12
+ 15 Do painting work               7        >2
+>16 Provide knowledge of wine     >1        >1
 
 

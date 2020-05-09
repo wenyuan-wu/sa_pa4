@@ -89,15 +89,29 @@ def get_rank_from_dict(q_list: list, c_list: list, dist_dict: dict) -> dict:
 
 def print_ranking_table(q_list: list, q_rank_dict: dict, c_list: list, c_rank_dict: dict, baseline: dict, wmd: dict):
     """To print out the ranking results of two approaches in form of tables."""
-    for query in q_list:
-        print('query: {}'.format(query))
-        print('correct rank: {}\n'.format(str(q_rank_dict[query])))
-        print('{:33}{:10}{}'.format('ranking', 'baseline', 'WMD'))
+    for idx, query in enumerate(q_list):
+        print('Query {}: {}'.format(idx + 1, query))
+        true_rank = q_rank_dict[query]
+        print('Correct rank: {}\n'.format(str(true_rank)))
+        print('{:34}{:10}{}'.format(' Ranking', ' Baseline', ' WMD'))
         for comp in c_list:
-            print('{:3}{:30}{:10}{}'.format(str(c_rank_dict[comp]),
-                                            comp,
-                                            str(baseline[query][comp]),
-                                            str(wmd[query][comp])))
+            baseline_rank = baseline[query][comp]
+            if baseline_rank in [1, 2, 3]:
+                baseline_rank = '>' + str(baseline_rank)
+            else:
+                baseline_rank = ' ' + str(baseline_rank)
+            wmd_rank = wmd[query][comp]
+            if wmd_rank in [1, 2, 3]:
+                wmd_rank = '>' + str(wmd_rank)
+            else:
+                wmd_rank = ' ' + str(wmd_rank)
+            comp_rank = c_rank_dict[comp]
+            if true_rank == comp_rank:
+                comp_rank = '>' + str(comp_rank)
+            else:
+                comp_rank = ' ' + str(comp_rank)
+
+            print('{:4}{:30}{:10}{}'.format(comp_rank, comp, baseline_rank, wmd_rank))
         print('\n')
 
 
