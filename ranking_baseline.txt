@@ -1,0 +1,342 @@
+Clean the kitchen floor, clean the oven
+Clean kitchen: 1
+Teach basic cooking: 2
+Chinese gourmet cuisine: 5
+Clean outdoor seating: 4
+Cultivate garden: 10
+Carry out transports: 15
+Maintain laundry: 3
+Sewing: 13
+Do shopping: 11
+Baby care: 6
+Look after toddlers: 9
+Advise child care: 8
+Dog training: 14
+Walk a dog: 12
+Do painting work: 7
+Provide knowledge of wine: 16
+
+Kitchen work
+Clean kitchen: 1
+Teach basic cooking: 3
+Chinese gourmet cuisine: 8
+Clean outdoor seating: 9
+Cultivate garden: 6
+Carry out transports: 16
+Maintain laundry: 4
+Sewing: 5
+Do shopping: 7
+Baby care: 11
+Look after toddlers: 14
+Advise child care: 10
+Dog training: 12
+Walk a dog: 15
+Do painting work: 2
+Provide knowledge of wine: 13
+
+Teaching children to cook
+Clean kitchen: 2
+Teach basic cooking: 1
+Chinese gourmet cuisine: 3
+Clean outdoor seating: 15
+Cultivate garden: 7
+Carry out transports: 16
+Maintain laundry: 9
+Sewing: 4
+Do shopping: 10
+Baby care: 8
+Look after toddlers: 11
+Advise child care: 6
+Dog training: 13
+Walk a dog: 12
+Do painting work: 5
+Provide knowledge of wine: 14
+
+Asian gourmet cuisine
+Clean kitchen: 4
+Teach basic cooking: 3
+Chinese gourmet cuisine: 1
+Clean outdoor seating: 7
+Cultivate garden: 6
+Carry out transports: 16
+Maintain laundry: 12
+Sewing: 9
+Do shopping: 5
+Baby care: 13
+Look after toddlers: 14
+Advise child care: 15
+Dog training: 10
+Walk a dog: 8
+Do painting work: 11
+Provide knowledge of wine: 2
+
+Free the pergola of dirt
+Clean kitchen: 1
+Teach basic cooking: 7
+Chinese gourmet cuisine: 11
+Clean outdoor seating: 3
+Cultivate garden: 2
+Carry out transports: 14
+Maintain laundry: 8
+Sewing: 13
+Do shopping: 15
+Baby care: 10
+Look after toddlers: 9
+Advise child care: 12
+Dog training: 6
+Walk a dog: 4
+Do painting work: 5
+Provide knowledge of wine: 16
+
+Mow and fertilize English lawn
+Clean kitchen: 3
+Teach basic cooking: 5
+Chinese gourmet cuisine: 13
+Clean outdoor seating: 2
+Cultivate garden: 1
+Carry out transports: 16
+Maintain laundry: 6
+Sewing: 14
+Do shopping: 12
+Baby care: 8
+Look after toddlers: 10
+Advise child care: 7
+Dog training: 9
+Walk a dog: 4
+Do painting work: 11
+Provide knowledge of wine: 15
+
+Transport the piano
+Clean kitchen: 4
+Teach basic cooking: 1
+Chinese gourmet cuisine: 3
+Clean outdoor seating: 5
+Cultivate garden: 11
+Carry out transports: 7
+Maintain laundry: 13
+Sewing: 6
+Do shopping: 16
+Baby care: 14
+Look after toddlers: 10
+Advise child care: 15
+Dog training: 12
+Walk a dog: 9
+Do painting work: 2
+Provide knowledge of wine: 8
+
+Pick up father in a wheelchair at the nursing home
+Clean kitchen: 3
+Teach basic cooking: 9
+Chinese gourmet cuisine: 15
+Clean outdoor seating: 13
+Cultivate garden: 12
+Carry out transports: 14
+Maintain laundry: 6
+Sewing: 11
+Do shopping: 8
+Baby care: 1
+Look after toddlers: 4
+Advise child care: 2
+Dog training: 5
+Walk a dog: 7
+Do painting work: 10
+Provide knowledge of wine: 16
+
+Wash and iron table linen
+Clean kitchen: 1
+Teach basic cooking: 8
+Chinese gourmet cuisine: 5
+Clean outdoor seating: 4
+Cultivate garden: 11
+Carry out transports: 13
+Maintain laundry: 3
+Sewing: 2
+Do shopping: 12
+Baby care: 9
+Look after toddlers: 15
+Advise child care: 10
+Dog training: 16
+Walk a dog: 14
+Do painting work: 7
+Provide knowledge of wine: 6
+
+Sew sofa cushions out of silk
+Clean kitchen: 8
+Teach basic cooking: 11
+Chinese gourmet cuisine: 2
+Clean outdoor seating: 7
+Cultivate garden: 4
+Carry out transports: 10
+Maintain laundry: 6
+Sewing: 1
+Do shopping: 9
+Baby care: 13
+Look after toddlers: 12
+Advise child care: 14
+Dog training: 15
+Walk a dog: 16
+Do painting work: 5
+Provide knowledge of wine: 3
+
+Bring food home
+Clean kitchen: 1
+Teach basic cooking: 3
+Chinese gourmet cuisine: 7
+Clean outdoor seating: 15
+Cultivate garden: 8
+Carry out transports: 14
+Maintain laundry: 5
+Sewing: 16
+Do shopping: 4
+Baby care: 2
+Look after toddlers: 10
+Advise child care: 6
+Dog training: 13
+Walk a dog: 9
+Do painting work: 11
+Provide knowledge of wine: 12
+
+Shopping help with car
+Clean kitchen: 5
+Teach basic cooking: 11
+Chinese gourmet cuisine: 15
+Clean outdoor seating: 14
+Cultivate garden: 10
+Carry out transports: 13
+Maintain laundry: 9
+Sewing: 16
+Do shopping: 1
+Baby care: 6
+Look after toddlers: 4
+Advise child care: 7
+Dog training: 3
+Walk a dog: 2
+Do painting work: 8
+Provide knowledge of wine: 12
+
+Feeding, wrapping and dressing the infant
+Clean kitchen: 8
+Teach basic cooking: 7
+Chinese gourmet cuisine: 16
+Clean outdoor seating: 10
+Cultivate garden: 12
+Carry out transports: 15
+Maintain laundry: 9
+Sewing: 6
+Do shopping: 11
+Baby care: 1
+Look after toddlers: 2
+Advise child care: 3
+Dog training: 5
+Walk a dog: 4
+Do painting work: 13
+Provide knowledge of wine: 14
+
+play with four-year-old son
+Clean kitchen: 10
+Teach basic cooking: 8
+Chinese gourmet cuisine: 14
+Clean outdoor seating: 16
+Cultivate garden: 7
+Carry out transports: 15
+Maintain laundry: 11
+Sewing: 13
+Do shopping: 9
+Baby care: 1
+Look after toddlers: 2
+Advise child care: 4
+Dog training: 5
+Walk a dog: 3
+Do painting work: 6
+Provide knowledge of wine: 12
+
+Prepare pregnant women for baby care
+Clean kitchen: 9
+Teach basic cooking: 8
+Chinese gourmet cuisine: 16
+Clean outdoor seating: 14
+Cultivate garden: 12
+Carry out transports: 13
+Maintain laundry: 5
+Sewing: 11
+Do shopping: 6
+Baby care: 1
+Look after toddlers: 3
+Advise child care: 2
+Dog training: 4
+Walk a dog: 7
+Do painting work: 10
+Provide knowledge of wine: 15
+
+Educate dog for family
+Clean kitchen: 8
+Teach basic cooking: 6
+Chinese gourmet cuisine: 13
+Clean outdoor seating: 14
+Cultivate garden: 5
+Carry out transports: 16
+Maintain laundry: 11
+Sewing: 15
+Do shopping: 9
+Baby care: 3
+Look after toddlers: 7
+Advise child care: 2
+Dog training: 4
+Walk a dog: 1
+Do painting work: 10
+Provide knowledge of wine: 12
+
+For dog shelter, take several dogs for a walk
+Clean kitchen: 12
+Teach basic cooking: 10
+Chinese gourmet cuisine: 14
+Clean outdoor seating: 9
+Cultivate garden: 11
+Carry out transports: 7
+Maintain laundry: 13
+Sewing: 16
+Do shopping: 4
+Baby care: 8
+Look after toddlers: 5
+Advise child care: 6
+Dog training: 2
+Walk a dog: 1
+Do painting work: 3
+Provide knowledge of wine: 15
+
+Sand down garden fence and repaint
+Clean kitchen: 2
+Teach basic cooking: 11
+Chinese gourmet cuisine: 15
+Clean outdoor seating: 3
+Cultivate garden: 4
+Carry out transports: 10
+Maintain laundry: 5
+Sewing: 6
+Do shopping: 7
+Baby care: 13
+Look after toddlers: 14
+Advise child care: 9
+Dog training: 12
+Walk a dog: 8
+Do painting work: 1
+Provide knowledge of wine: 16
+
+Wine connoisseurs, value wines from inheritance
+Clean kitchen: 13
+Teach basic cooking: 5
+Chinese gourmet cuisine: 6
+Clean outdoor seating: 16
+Cultivate garden: 4
+Carry out transports: 15
+Maintain laundry: 12
+Sewing: 14
+Do shopping: 8
+Baby care: 3
+Look after toddlers: 10
+Advise child care: 2
+Dog training: 11
+Walk a dog: 9
+Do painting work: 7
+Provide knowledge of wine: 1
+

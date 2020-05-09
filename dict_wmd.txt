@@ -1,0 +1,342 @@
+Clean the kitchen floor, clean the oven
+Clean kitchen: 0.5885096243440371
+Teach basic cooking: 0.4599556657812653
+Maintain laundry: 0.2901523309656586
+Clean outdoor seating: 0.2798525683334307
+Chinese gourmet cuisine: 0.27751953651285166
+Baby care: 0.26306184394762944
+Do painting work: 0.2379278928590628
+Advise child care: 0.22337096288827077
+Look after toddlers: 0.21141839474234334
+Cultivate garden: 0.20445694111506652
+Do shopping: 0.19590739443995517
+Walk a dog: 0.1958789270150318
+Sewing: 0.18688877568301118
+Dog training: 0.17405255820474239
+Carry out transports: 0.14670975973322098
+Provide knowledge of wine: 0.13977494285437425
+
+Kitchen work
+Clean kitchen: 0.7613875269889832
+Do painting work: 0.6284568309783936
+Teach basic cooking: 0.5333260893821716
+Maintain laundry: 0.4493350684642792
+Sewing: 0.407502144575119
+Cultivate garden: 0.36967092752456665
+Do shopping: 0.3507126569747925
+Chinese gourmet cuisine: 0.3358913064002991
+Clean outdoor seating: 0.311797171831131
+Advise child care: 0.2872089147567749
+Baby care: 0.2861415147781372
+Dog training: 0.25844475626945496
+Provide knowledge of wine: 0.2551920701742342
+Look after toddlers: 0.25035884976387024
+Walk a dog: 0.21424138532345247
+Carry out transports: 0.13386964797973633
+
+Teaching children to cook
+Teach basic cooking: 0.764089481905862
+Clean kitchen: 0.49049844488689215
+Chinese gourmet cuisine: 0.46381527774139203
+Sewing: 0.38796251973584384
+Do painting work: 0.38204233011573524
+Advise child care: 0.3627828856506047
+Cultivate garden: 0.35934889627712796
+Baby care: 0.3392675910790295
+Maintain laundry: 0.2925650418057673
+Do shopping: 0.28510240242902213
+Look after toddlers: 0.28243602288591585
+Walk a dog: 0.260901511354578
+Dog training: 0.2433594538262967
+Provide knowledge of wine: 0.23563872413244127
+Clean outdoor seating: 0.15964826608367894
+Carry out transports: 0.1348043886484162
+
+Asian gourmet cuisine
+Chinese gourmet cuisine: 0.9628538489341736
+Provide knowledge of wine: 0.4735310998241822
+Teach basic cooking: 0.4554699659347534
+Clean kitchen: 0.29992276430130005
+Do shopping: 0.25293806195259094
+Cultivate garden: 0.24863459169864655
+Clean outdoor seating: 0.23767514526844025
+Walk a dog: 0.18552700153459045
+Sewing: 0.1671469807624817
+Dog training: 0.14815354347229004
+Do painting work: 0.14562588930130005
+Maintain laundry: 0.1438784897327423
+Baby care: 0.14377659559249878
+Look after toddlers: 0.10788492113351822
+Advise child care: 0.10527259856462479
+Carry out transports: 0.09206618368625641
+
+Free the pergola of dirt
+Clean kitchen: 0.3261914792743478
+Cultivate garden: 0.30706290167752087
+Clean outdoor seating: 0.29724622646557447
+Walk a dog: 0.2658022913503425
+Do painting work: 0.22121581162869708
+Dog training: 0.21771017218711725
+Teach basic cooking: 0.21473134509135985
+Maintain laundry: 0.21167245854641373
+Look after toddlers: 0.20234378708847858
+Baby care: 0.1802416170526107
+Chinese gourmet cuisine: 0.16770120198989524
+Advise child care: 0.1324512456530336
+Sewing: 0.12314397188209246
+Carry out transports: 0.11591470897270065
+Do shopping: 0.11430622610219317
+Provide knowledge of wine: 0.10681348224115811
+
+Mow and fertilize English lawn
+Cultivate garden: 0.5312067118681353
+Clean outdoor seating: 0.3419504884918844
+Clean kitchen: 0.33236589001120975
+Walk a dog: 0.2858794362475478
+Teach basic cooking: 0.28316131076402423
+Maintain laundry: 0.27010719066274896
+Advise child care: 0.26495436432201136
+Baby care: 0.2545535555101484
+Dog training: 0.2492410082296049
+Look after toddlers: 0.23841071539839032
+Do painting work: 0.21197902788372286
+Do shopping: 0.20119205969945275
+Chinese gourmet cuisine: 0.17505291727753142
+Sewing: 0.1569072921729855
+Provide knowledge of wine: 0.12740389077647635
+Carry out transports: 0.08154629332862419
+
+Transport the piano
+Teach basic cooking: 0.330291211605072
+Do painting work: 0.3235350251197815
+Chinese gourmet cuisine: 0.27446886897087097
+Clean kitchen: 0.26934269070625305
+Clean outdoor seating: 0.2645295262336731
+Sewing: 0.25879448652267456
+Carry out transports: 0.25154098868370056
+Provide knowledge of wine: 0.2452439097142599
+Walk a dog: 0.21964762630327483
+Look after toddlers: 0.21371743083000183
+Cultivate garden: 0.20939180254936218
+Dog training: 0.20162729918956757
+Maintain laundry: 0.19697988033294678
+Baby care: 0.19096697866916656
+Advise child care: 0.17484480142593384
+Do shopping: 0.15254022181034088
+
+Pick up father in a wheelchair at the nursing home
+Baby care: 0.45271373373406065
+Advise child care: 0.4261456023622227
+Clean kitchen: 0.37170640926234505
+Look after toddlers: 0.3563007872340634
+Dog training: 0.3347805212120724
+Maintain laundry: 0.30672943638982997
+Walk a dog: 0.3025317602627609
+Do shopping: 0.27940677846366335
+Teach basic cooking: 0.2573809898087619
+Do painting work: 0.24919431050394383
+Sewing: 0.2243079292480789
+Cultivate garden: 0.2020032239221571
+Clean outdoor seating: 0.18653873261893916
+Carry out transports: 0.14967859416561607
+Chinese gourmet cuisine: 0.14963556292047195
+Provide knowledge of wine: 0.14041725525994317
+
+Wash and iron table linen
+Clean kitchen: 0.4714410031342965
+Sewing: 0.382602722536506
+Maintain laundry: 0.36495953758124045
+Clean outdoor seating: 0.33140015548144086
+Chinese gourmet cuisine: 0.31282052549854833
+Provide knowledge of wine: 0.28442879960628886
+Do painting work: 0.24201318851471276
+Teach basic cooking: 0.24199671205918188
+Baby care: 0.2325426624850548
+Advise child care: 0.21248843610009305
+Cultivate garden: 0.20124768379515914
+Do shopping: 0.1732500469753846
+Carry out transports: 0.16041811624957514
+Walk a dog: 0.15062630192537585
+Look after toddlers: 0.13285946856460415
+Dog training: 0.10091856767788657
+
+Sew sofa cushions out of silk
+Sewing: 0.46794715024403905
+Chinese gourmet cuisine: 0.2678886791176548
+Provide knowledge of wine: 0.230477037622741
+Cultivate garden: 0.21582742234217842
+Do painting work: 0.2084025184438914
+Maintain laundry: 0.19625536544922514
+Clean outdoor seating: 0.1906296220849042
+Clean kitchen: 0.1773506631348182
+Do shopping: 0.17189739740114265
+Carry out transports: 0.154821215251584
+Teach basic cooking: 0.14091692161542302
+Look after toddlers: 0.13817644407996102
+Baby care: 0.12471331328181262
+Advise child care: 0.08893832109580566
+Dog training: 0.06771919947072157
+Walk a dog: 0.05880923682989697
+
+Bring food home
+Clean kitchen: 0.4381026327610016
+Baby care: 0.4025822579860687
+Teach basic cooking: 0.4021066725254059
+Do shopping: 0.39070022106170654
+Maintain laundry: 0.366869181394577
+Advise child care: 0.36609548330307007
+Chinese gourmet cuisine: 0.3627966046333313
+Cultivate garden: 0.34284576773643494
+Walk a dog: 0.3424420245053007
+Look after toddlers: 0.33709844946861267
+Do painting work: 0.3194780945777893
+Provide knowledge of wine: 0.29248348291613707
+Dog training: 0.28341516852378845
+Carry out transports: 0.27456220984458923
+Clean outdoor seating: 0.2588581442832947
+Sewing: 0.19824989140033722
+
+Shopping help with car
+Do shopping: 0.5009000301361084
+Walk a dog: 0.33122783381803594
+Dog training: 0.30001118779182434
+Look after toddlers: 0.296686589717865
+Clean kitchen: 0.29272332787513733
+Baby care: 0.2845064401626587
+Advise child care: 0.27958500385284424
+Do painting work: 0.26180946826934814
+Maintain laundry: 0.25396275520324707
+Cultivate garden: 0.21933576464653015
+Teach basic cooking: 0.21747872233390808
+Provide knowledge of wine: 0.21318643517010796
+Carry out transports: 0.17386183142662048
+Clean outdoor seating: 0.1689884066581726
+Chinese gourmet cuisine: 0.1615447700023651
+Sewing: 0.10506758093833923
+
+Feeding, wrapping and dressing the infant
+Baby care: 0.7006095970003541
+Look after toddlers: 0.6322093932371643
+Advise child care: 0.49338372115988616
+Walk a dog: 0.34385995161436345
+Dog training: 0.31695013353706303
+Sewing: 0.2529986423421556
+Teach basic cooking: 0.2264370004602474
+Clean kitchen: 0.215341293501659
+Maintain laundry: 0.21083886563241466
+Clean outdoor seating: 0.1965368044046403
+Do shopping: 0.1710444386178728
+Cultivate garden: 0.15589576682791995
+Do painting work: 0.1332285959820442
+Provide knowledge of wine: 0.1305680337927321
+Carry out transports: 0.11338448822539882
+Chinese gourmet cuisine: 0.10970739922082473
+
+play with four-year-old son
+Baby care: 0.3991055564683696
+Look after toddlers: 0.3542558380823388
+Walk a dog: 0.32097523606913686
+Advise child care: 0.29407106196271104
+Dog training: 0.28351318241670853
+Do painting work: 0.18773401098159334
+Cultivate garden: 0.15954543283335376
+Teach basic cooking: 0.15295036014843613
+Do shopping: 0.13117322884398502
+Clean kitchen: 0.12854993420297123
+Maintain laundry: 0.11357379198640019
+Provide knowledge of wine: 0.06700059436242077
+Sewing: 0.0656986239573002
+Chinese gourmet cuisine: 0.06351376747488738
+Carry out transports: 0.05587983684109287
+Clean outdoor seating: 0.01589180310097559
+
+Prepare pregnant women for baby care
+Baby care: 0.9578569531440735
+Advise child care: 0.8709848523139954
+Look after toddlers: 0.5073234438896179
+Dog training: 0.3789925277233124
+Maintain laundry: 0.3595753312110901
+Do shopping: 0.3506707549095154
+Walk a dog: 0.3326630387930416
+Teach basic cooking: 0.3179076910018921
+Clean kitchen: 0.2982630431652069
+Do painting work: 0.29597216844558716
+Sewing: 0.2775310277938843
+Cultivate garden: 0.2456955462694168
+Carry out transports: 0.2054634988307953
+Clean outdoor seating: 0.1911088526248932
+Provide knowledge of wine: 0.15443669990408768
+Chinese gourmet cuisine: 0.1361120492219925
+
+Educate dog for family
+Walk a dog: 0.44827503184030293
+Advise child care: 0.44581711292266846
+Baby care: 0.4319527745246887
+Dog training: 0.42512276768684387
+Cultivate garden: 0.3244204819202423
+Teach basic cooking: 0.31448712944984436
+Look after toddlers: 0.2931259870529175
+Clean kitchen: 0.28766748309135437
+Do shopping: 0.28648802638053894
+Do painting work: 0.27370724081993103
+Maintain laundry: 0.26199254393577576
+Provide knowledge of wine: 0.1972430496263283
+Chinese gourmet cuisine: 0.18434084951877594
+Clean outdoor seating: 0.17167158424854279
+Sewing: 0.1607326716184616
+Carry out transports: 0.15956664085388184
+
+For dog shelter, take several dogs for a walk
+Walk a dog: 0.6872074350211795
+Dog training: 0.3883057115099476
+Do painting work: 0.33822918179535977
+Do shopping: 0.30460173629684606
+Look after toddlers: 0.28261035985029626
+Advise child care: 0.2646091405803243
+Carry out transports: 0.24113187033091307
+Baby care: 0.23808991261147958
+Clean outdoor seating: 0.2309136604480641
+Teach basic cooking: 0.2307367541226822
+Cultivate garden: 0.22123224906791053
+Clean kitchen: 0.21398772787459086
+Maintain laundry: 0.2057434182456145
+Chinese gourmet cuisine: 0.17306834118739592
+Provide knowledge of wine: 0.1562267338387339
+Sewing: 0.11617395546191044
+
+Sand down garden fence and repaint
+Do painting work: 0.46749381188919814
+Clean kitchen: 0.3101239848493793
+Clean outdoor seating: 0.28588582072596475
+Cultivate garden: 0.2757045182373973
+Maintain laundry: 0.2733195739311064
+Sewing: 0.2013720801552359
+Do shopping: 0.1970680614521472
+Walk a dog: 0.18722861979416686
+Advise child care: 0.18330211986507494
+Carry out transports: 0.15244549604664287
+Teach basic cooking: 0.13962204643485582
+Dog training: 0.13957037052339563
+Baby care: 0.12268819208943904
+Look after toddlers: 0.09802525957402937
+Chinese gourmet cuisine: 0.06870940250473175
+Provide knowledge of wine: 0.05891000637085849
+
+Wine connoisseurs, value wines from inheritance
+Provide knowledge of wine: 0.3999254989416041
+Advise child care: 0.28436395186981955
+Baby care: 0.2732223345284696
+Cultivate garden: 0.2189297154214943
+Teach basic cooking: 0.20680379709308236
+Chinese gourmet cuisine: 0.19768800324902291
+Do painting work: 0.1716886894840837
+Do shopping: 0.16698162327273833
+Walk a dog: 0.15191737035245803
+Look after toddlers: 0.1384031472577645
+Dog training: 0.11190124001410914
+Maintain laundry: 0.104016278521875
+Clean kitchen: 0.09983847502977687
+Sewing: 0.09602226497129544
+Carry out transports: 0.07744914848184015
+Clean outdoor seating: 0.0399204767393177
+

@@ -13,7 +13,6 @@
 import numpy as np
 import gensim.downloader as api
 import csv
-import json
 import argparse
 
 
@@ -44,12 +43,12 @@ def get_avg_vec_dict(sent_list: list) -> dict:
     return avg_vec_dict
 
 
-def cosine_distance(x: np.ndarray, y: np.ndarray) -> float:
+def cosine_similarity(x: np.ndarray, y: np.ndarray) -> float:
     """To calculate cosine distance between two vectors."""
-    return 1.0 - np.dot(x, y) / (np.linalg.norm(x) * np.linalg.norm(y))
+    return np.dot(x, y) / (np.linalg.norm(x) * np.linalg.norm(y))
 
 
-def get_baseline_distance(q_list: list, c_list: list) -> dict:
+def get_baseline_dict(q_list: list, c_list: list) -> dict:
     """To calculate distance of entities from two lists by baseline approach."""
     result_dict = {}
     q_avg_vec = get_avg_vec_dict(q_list)
@@ -57,13 +56,13 @@ def get_baseline_distance(q_list: list, c_list: list) -> dict:
     for query in q_list:
         temp_dict = {}
         for comp in c_list:
-            temp_dict[comp] = cosine_distance(c_avg_vec[comp], q_avg_vec[query])
-        temp_dict = {k: v for k, v in sorted(temp_dict.items(), key=lambda item: item[1])}
+            temp_dict[comp] = cosine_similarity(c_avg_vec[comp], q_avg_vec[query])
+        temp_dict = {k: v for k, v in sorted(temp_dict.items(), key=lambda item: item[1], reverse=True)}
         result_dict[query] = temp_dict
     return result_dict
 
 
-def get_wmd_distance(q_list: list, c_list: list) -> dict:
+def get_wmd_dict(q_list: list, c_list: list) -> dict:
     """To calculate distance of entities from two lists by WMD approach."""
     result_dict = {}
     for query in q_list:
@@ -76,7 +75,7 @@ def get_wmd_distance(q_list: list, c_list: list) -> dict:
 
 
 def get_rank_from_dict(q_list: list, c_list: list, dist_dict: dict) -> dict:
-    """To convert distance dictionary into ranking dictionary."""
+    """Convert distance dictionary into ranking dictionary."""
     result_dict = {}
     for query in q_list:
         rank_list = list(dist_dict[query].keys())
@@ -88,7 +87,7 @@ def get_rank_from_dict(q_list: list, c_list: list, dist_dict: dict) -> dict:
 
 
 def print_ranking_table(q_list: list, q_rank_dict: dict, c_list: list, c_rank_dict: dict, baseline: dict, wmd: dict):
-    """To print out the ranking results of two approaches in form of tables."""
+    """Print out the ranking results of two approaches in form of tables."""
     for idx, query in enumerate(q_list):
         print('Query {}: {}'.format(idx + 1, query))
         true_rank = q_rank_dict[query]
@@ -116,7 +115,7 @@ def print_ranking_table(q_list: list, q_rank_dict: dict, c_list: list, c_rank_di
 
 
 def get_argument_parser() -> argparse.ArgumentParser:
-    """To create an argument parser with required options."""
+    """Create an argument parser with required options."""
     parser = argparse.ArgumentParser(
         description='A Python script to compare the results of '
                     'classification with sparse vs. dense vectors')
@@ -124,8 +123,20 @@ def get_argument_parser() -> argparse.ArgumentParser:
     return parser
 
 
+def dict_to_file(filepath: str, input_dict: dict) -> None:
+    """Save dictionary into file for inspection."""
+    with open(filepath, 'w') as fp:
+        for key, val in input_dict.items():
+            fp.write(key)
+            fp.write('\n')
+            for k, v in val.items():
+                fp.write('{}: {}'.format(k, v))
+                fp.write('\n')
+            fp.write('\n')
+
+
 def main():
-    # To get the list of competences
+    # get the list of competences
     comp_rank_dict = {
         'Clean kitchen': 1,
         'Teach basic cooking': 2,
@@ -146,7 +157,7 @@ def main():
     }
     comp_list = list(comp_rank_dict.keys())
 
-    # To get list of queries
+    # get list of queries
     args = get_argument_parser().parse_args()
     query_rank_dict = {}
     with open(args.i, 'r', newline='') as infile:
@@ -155,22 +166,18 @@ def main():
             query_rank_dict[row[0]] = int(row[1])
     query_list = list(query_rank_dict.keys())
 
-    # To calculate results by two different approaches and save to json format file for inspection purpose
-    distance_baseline = get_baseline_distance(query_list, comp_list)
-    with open('distance_baseline.json', 'w') as fp:
-        json.dump(distance_baseline, fp, indent=4)
+    # calculate results by two different approaches and save to json format file for inspection purpose
+    dict_baseline = get_baseline_dict(query_list, comp_list)
+    dict_to_file('dict_baseline.txt', dict_baseline)
 
-    distance_wmd = get_wmd_distance(query_list, comp_list)
-    with open('distance_wmd.json', 'w') as fp:
-        json.dump(distance_wmd, fp, indent=4)
+    dict_wmd = get_wmd_dict(query_list, comp_list)
+    dict_to_file('dict_wmd.txt', dict_baseline)
 
-    ranking_baseline = get_rank_from_dict(query_list, comp_list, distance_baseline)
-    with open('ranking_baseline.json', 'w') as fp:
-        json.dump(ranking_baseline, fp, indent=4)
+    ranking_baseline = get_rank_from_dict(query_list, comp_list, dict_baseline)
+    dict_to_file('ranking_baseline.txt', ranking_baseline)
 
-    ranking_wmd = get_rank_from_dict(query_list, comp_list, distance_wmd)
-    with open('ranking_wmd.json', 'w') as fp:
-        json.dump(ranking_wmd, fp, indent=4)
+    ranking_wmd = get_rank_from_dict(query_list, comp_list, dict_wmd)
+    dict_to_file('ranking_wmd.txt', ranking_wmd)
 
     # print final result as standard output
     print_ranking_table(query_list, query_rank_dict, comp_list, comp_rank_dict, ranking_baseline, ranking_wmd)
