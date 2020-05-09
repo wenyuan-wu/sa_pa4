@@ -416,3 +416,14 @@ Correct rank: 16
 >16 Provide knowledge of wine     >1        >1
 
 
+--------------------------------------------------------------
+Remarks:
+Rate of success (correct competence is within top 3 ranks) of two approaches:
+Baseline: 0.789
+WMD: 0.842
+Pre-trained model: word2vec-google-news-300
+WMD delivers a slightly better results than baseline, but overall if the keywords from competence appear directly
+in query then both approaches can easily get it right. Meanwhile for other difficult queries which need more
+semantic interpretation, e.g. query 11, both approaches are not able to pick reasonable competence. I also found that
+gensim has Doc2Vec model which implemented Doc2Vec algorithm from Le and Mikolov in 2014. I wonder if this model works
+in our assignment scenario.
