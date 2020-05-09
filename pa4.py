@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author: Wenyuan Wu, 18746867
 # Date: 08.05.2020
-# Additional Info:
+# Additional Info: https://github.com/wenyuan-wu/sa_pa4
 # Install packages:
 # pip install -r requirements.txt
 # To get help, type in command line:
